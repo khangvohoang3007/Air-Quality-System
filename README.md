@@ -18,3 +18,12 @@ Each node is designed with the following core modules:
   <br>
 </p>
 
+## FEATURES
+* **Dual-Layer Monitoring:** Real-time data visualization via local **OLED display** and remote **Blynk IoT platform**.
+* **Multi-Sensor Integration:** High-precision tracking of **Air Quality (MQ-135)**, **Temperature**, and **Humidity (DHT11)**.
+* **Instant Alert System:** Automatic push notifications and mobile alerts for significant changes in air pollution levels.
+* **Smart Connectivity:** Seamless Wi-Fi integration using **ESP8266** for stable cloud data synchronization.
+* **User-Centric Design:** Optimized UI/UX on Blynk app for intuitive environmental tracking.
+
+## COMPONENTS USED
+
