@@ -60,23 +60,28 @@ Install these via **Library Manager** (`Ctrl + Shift + I`):
 
 ## CONFIGURATION AND CODE UPLOADING
 
+Update your Blynk Template ID, Name, and Auth Token in the code section below.
 ```cpp
 //Paste your Blynk config here
 #define BLYNK_TEMPLATE_ID "...."
 #define BLYNK_TEMPLATE_NAME "SENSOR NODE1"
 #define BLYNK_AUTH_TOKEN "....."
 ```
+*Note: Please refer to the documentation in docs for detailed Blynk setup instructions.*
 
+Enter your Wi-Fi SSID and Password in the code section below.
 ```cpp
-//Paste your Blynk config here
-#define BLYNK_TEMPLATE_ID "...."
-#define BLYNK_TEMPLATE_NAME "SENSOR NODE1"
-#define BLYNK_AUTH_TOKEN "....."
+char ssid[] = "type here";  // type your wifi name
+char pass[] = "type here";  // type your wifi password
 ```
 
+### Code Uploading Guide
 1. **Connect board to your PC via USB**
 2. Open the **Arduino IDE**
 3. Select **your correct board** under **Tools → Board**
 4. Open **Tools → Port** and select the correct COM port
 5. Click the **Upload** button
 6. Open the **Serial Monitor** (baud rate: `115200`) to check the logs
+
+## VIDEO PERFORMANCE
+
