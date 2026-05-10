@@ -33,3 +33,6 @@ Each node is designed with the following core modules:
 | **DHT11 Sensor** | Monitors ambient temperature and humidity. |
 | **MQ-135 Sensor** | Detects hazardous gases and measures air quality. |
 | **Misc. Electronics** | Resistors, buttons, and LEDs for circuit interfacing. |
+
+## REQUIRED LIBRARIES
+
