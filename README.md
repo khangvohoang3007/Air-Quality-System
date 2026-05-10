@@ -26,4 +26,10 @@ Each node is designed with the following core modules:
 * **User-Centric Design:** Optimized UI/UX on Blynk app for intuitive environmental tracking.
 
 ## COMPONENTS USED
-
+| Component | Function |
+| --- | --- |
+| **ESP8266 NodeMCU** | Main MCU for data processing & Wi-Fi communication. |
+| **0.91" I2C OLED** | Real-time visual interface for sensor data. |
+| **DHT11 Sensor** | Monitors ambient temperature and humidity. |
+| **MQ-135 Sensor** | Detects hazardous gases and measures air quality. |
+| **Misc. Electronics** | Resistors, buttons, and LEDs for circuit interfacing. |
