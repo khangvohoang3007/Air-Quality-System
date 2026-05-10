@@ -84,4 +84,4 @@ char pass[] = "type here";  // type your wifi password
 6. Open the **Serial Monitor** (baud rate: `115200`) to check the logs
 
 ## VIDEO PERFORMANCE
-
+[![THE AIR QUALITY MONITORING SYSTEM USING ESP8266 AND BLYNK SERVER MONITORING](https://img.youtube.com/vi/SAjFOtDFIkM/0.jpg)](https://www.youtube.com/watch?v=SAjFOtDFIkM)
