@@ -35,4 +35,48 @@ Each node is designed with the following core modules:
 | **Misc. Electronics** | Resistors, buttons, and LEDs for circuit interfacing. |
 
 ## REQUIRED LIBRARIES
+Install these via **Library Manager** (`Ctrl + Shift + I`):
+* **Blynk** (by Volodmpyr Shymanskyy)
+* **DHT sensor library** & **Adafruit Unified Sensor** (by Adafruit)
+* **MQ135** (by Georg Krocker)
+* **Adafruit SSD1306** & **Adafruit GFX Library** (by Adafruit)
 
+## WIRING DIAGRAM
+
+| Component | Pin on ESP8266 | Function |
+| --- | --- | --- |
+| **OLED (SDA)** | **D2** | I2C Data |
+| **OLED (SCL)** | **D1** | I2C Clock |
+| **DHT11 Sensor** | **D5** | Temperature & Humidity Data |
+| **MQ-135 Sensor** | **A0** | Analog Gas Signal |
+| **Push Button** | **D4** | Display Toggle |
+| **Warning LED** | **D3** | Pollution Alert |
+
+*Note: Ensure your ESP8266 board is powered via USB or a stable 5V source.*
+<p align="center">
+  <img src="hardware/hardware_connection.png" width="500" alt="Sensor Node Structure">
+  <br>
+</p>
+
+## CONFIGURATION AND CODE UPLOADING
+
+```cpp
+#ifndef SECRETS_H
+#define SECRETS_H
+
+#define WIFI_SSID "Your_WiFi_SSID"
+#define WIFI_PASSWORD "Your_WiFi_Password"
+
+#define MQTT_SERVER "Your_MQTT_Broker_IP"
+#define MQTT_USER "Your_MQTT_Username"
+#define MQTT_PASS "Your_MQTT_Password"
+
+#endif // SECRETS_H
+```
+
+1. **Connect board to your PC via USB**
+2. Open the **Arduino IDE**
+3. Select **your correct board** under **Tools → Board**
+4. Open **Tools → Port** and select the correct COM port
+5. Click the **Upload** button
+6. Open the **Serial Monitor** (baud rate: `115200`) to check the logs
